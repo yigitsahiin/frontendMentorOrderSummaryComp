@@ -1,0 +1,86 @@
+body{
+    background: hsl(225, 100%, 94%);
+    font-family: system-ui;
+    background-image: url(images/pattern-background-desktop.svg) ;
+    background-repeat: no-repeat;
+}   
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    width: 350px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.1);
+}
+.cardDetay{
+    background-image: url(images/illustration-hero.svg);
+    background-color: cover ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 190px;
+}
+
+.cardTema{
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: ghostwhite;
+}
+
+.cardSection{
+    display: flex;
+    align-items: center;
+}
+
+.h5-tag{
+    margin-left: 10px;
+}
+
+.cardSection h5, .cardSection p{
+    margin: 0px;
+}
+
+.cardFooter{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardFooter a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.cardFooter button{
+    cursor: pointer;
+    padding: 12px 0px;
+    border: none;
+    outline: none;
+    background: hsl(245, 75%, 52%);
+    color: #fff;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.change{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    cursor: pointer;
+}
